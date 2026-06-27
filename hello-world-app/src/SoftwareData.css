@@ -1,0 +1,78 @@
+/* SoftwareData.css */
+
+.software-container{
+    width: 95%;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f4f7ff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.software-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+/* Table */
+.software-table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Header */
+.software-table thead{
+    background: linear-gradient(
+        to right,
+        #2563eb,
+        #1d4ed8
+    );
+    color: white;
+}
+
+.software-table th{
+    padding: 18px;
+    font-size: 17px;
+}
+
+/* Table Cells */
+.software-table td{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+/* Alternate Rows */
+.software-table tbody tr:nth-child(even){
+    background-color: #eef4ff;
+}
+
+/* Hover Effect */
+.software-table tbody tr:hover{
+    background-color: #dbeafe;
+    transition: 0.3s;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px){
+
+    .software-table{
+        font-size: 13px;
+    }
+
+    .software-table th,
+    .software-table td{
+        padding: 10px;
+    }
+
+    .software-title{
+        font-size: 28px;
+    }
+}
