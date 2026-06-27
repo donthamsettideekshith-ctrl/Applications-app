@@ -1,0 +1,23 @@
+package com.project.empservice.model;
+import jakarta.persistence.*;
+import lombok.Data;
+
+@Entity
+@Table(name = "medical")
+@Data
+public class Medical {
+	
+	    @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	    private Integer id;
+
+	    private String name;
+	    private String specialization;
+	    private String experience;
+	    private Double currentSalary;
+	    private Double expectedSalary;
+	    private Long phoneNo;
+	    private String email;
+	    private String qualifications;
+	}
+
