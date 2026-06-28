@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+
 import { getinformation } from "./UserService";
 import "./Fetch.css";
 
