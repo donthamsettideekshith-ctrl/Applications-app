@@ -19,7 +19,7 @@ export default function Admin() {
         try {
 
             const response = await axios.post(
-                "http://localhost:9191/Admin/login",
+                "https://backend-code-3-ajzx.onrender.com/Admin/login",
                 AdminData
             );
 
